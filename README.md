@@ -109,6 +109,11 @@ docker-compose exec groupsession bash
 curl -I http://localhost:8080/gsession/
 ```
 
+## Git Flow
+
+This project uses git-flow.
+Please use `git flow init -d` to initialize.
+
 ## License
 
 This Docker configuration is provided under the MIT License. GroupSession itself has its own licensing terms - please refer to the [official website](https://groupsession.jp/).
