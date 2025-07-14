@@ -1,0 +1,48 @@
+{
+  "name": "@groupsession/client",
+  "version": "1.0.0",
+  "description": "GroupSession API client library",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "biome lint src/",
+    "format": "biome format --write src/",
+    "check": "biome check src/",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "keywords": [
+    "groupsession",
+    "api",
+    "client",
+    "japanese",
+    "groupware"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-dts": "^4.2.4",
+    "vitest": "^2.1.4"
+  }
+}

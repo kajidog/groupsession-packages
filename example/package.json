@@ -1,0 +1,22 @@
+{
+  "name": "@groupsession/example",
+  "version": "1.0.0",
+  "description": "GroupSession client library usage examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example:basic": "tsx samples/basic-usage.ts",
+    "example:users": "tsx samples/user-management.ts",
+    "example:groups": "tsx samples/group-operations.ts",
+    "example:schedules": "tsx samples/schedule-crud.ts",
+    "example:messages": "tsx samples/messaging.ts",
+    "example:errors": "tsx samples/error-handling.ts"
+  },
+  "dependencies": {
+    "@groupsession/client": "file:../packages/group-session-client"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
