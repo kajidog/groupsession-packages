@@ -13,7 +13,7 @@
     "example:errors": "tsx samples/error-handling.ts"
   },
   "dependencies": {
-    "@groupsession/client": "workspace:*"
+    "@groupsession/client": "1.0.0"
   },
   "devDependencies": {
     "tsx": "^4.7.0",
